@@ -35,17 +35,23 @@
 	margin:0 0 0 70px;
 	
 }
+.elarning_style ul li a{
+	padding:20px 30px 20px 0!important;
+	color:#5F5F5F!important;
+}
 	
 /*======================banner part==============*/
 .banner_part{
-	background:url('img/banner_2nd-dec_textcenter.gif')no-repeat;
-	min-height:300px;
+	background:url('img/banner_new2.jpg')no-repeat;
+	min-height:430px;
+	
 	
 }
 .welcome_head{
 	font-size:50px;
 	font-family:'Century Gothic';
 	margin:30px 0 30px 0;
+	
 }
 .welcome_para{
 	font-size:18px;
@@ -58,6 +64,14 @@
 	font-size:28px;
 	font-family:'Century Gothic';
 	margin:60px 0 20px 0;
+	
+}
+.card-title{
+	color:#043F78!important;
+	margin:0 0 20px 0!important;
+}
+.card-block{
+	padding:0 20px 20px 0!important;
 }
 .watch_para{
 	font-size:20px;
@@ -74,17 +88,33 @@ border:none!important;
 .watch_now{
 	position:absolute;
 	bottom:0;
-	background:#4080ff;
+	background:#20C4AC;
+	border:3px solid #20C4AC;
+	border-radius:0;
 	height:40px;
-	margin:50px 0 0 0;
+	width:140px;
+	margin:60px 0 0 0;
 	border:none;
+	transition:ease 1s;
+	cursor:pointer;
+}
+.watch_now:hover{
+	border:3px solid #20C4AC;
+	transition:ease 1s;
+	background:none;
+	color:#20C4AC;
+	margin:60px 0 0 0;
+	height:40px;
 }
 .card-text{
 	margin:0 0 30px 0!important;
 }
 .img_style{
+	cursor:pointer;
 	margin:20px 0 0 0!important;
 }
+
+
 .ready_head{
 	font-size:28px;
 	color:#393939;
@@ -104,15 +134,19 @@ border:none!important;
 	
 }
 .social_icon{
+	cursor:pointer;
 	color:#fff;
 	font-size:30px;
 	margin:50px 20px 50px 0;
+}
+.social_icon:hover {
+	color:#062A4D;
 }
 
 
 /*=================media query start====================*/
 
-@media screen and (min-width:100px) and (max-width:767px){
+@media screen and (min-width:100px) and (max-width:400px){
  body {
        overflow-x: hidden !important;
     }
@@ -139,18 +173,146 @@ border:none!important;
 
 }
 .watch_now{
-	position:absolute;
 	
-	background:#4080ff;
+	
+
+}
+
+.watch_now{
+	position:absolute;
+	bottom:0;
+	background:#20C4AC;
+	border:3px solid #20C4AC;
+	border-radius:0;
 	height:40px;
-	margin:60px 0 0 0!important;
+	width:120px;
+	margin:60px 0 0 0;
 	border:none;
+	transition:ease 1s;
+	cursor:pointer;
+}
+.watch_now:hover{
+	border:3px solid #20C4AC;
+	transition:ease 1s;
+	background:none;
+	color:#20C4AC;
+	margin:60px 0 0 0;
+	height:40px;
+}
+/*======================banner part==============*/
+.banner_part{
+	background:url('img/banner_mob.jpg')no-repeat;
+	min-height:430px;
+	
+	
+}
+.welcome_head{
+	font-size:30px;
+	font-family:'Century Gothic';
+	margin:30px 0 10px 0;
+	
+}
+.welcome_para{
+	font-size:18px;
+	font-family:'Century Gothic';
+	margin:10px 0 30px 0;
+	line-height:30px;
 }
 
 	
 }
+/*=================media query 640px======================*/
+@media screen and (min-width:401px) and (max-width:640px){
+	
+	.banner_part{
+	background:url('img/banner_tab.jpg')no-repeat;
+	min-height:430px;
+	
+}
+.mycard_style{
+	font-size:15px!important;
+	
+}
+.mycard_text{
+	line-height:18px!important;
+	font-size:12px!important;
+}
+.video_text{
+	line-height:12px!important;
+	font-size:12px!important;
+	margin:0 0 10px 0!important;
+}
+/*================button====================*/
+.watch_now{
+	position:absolute;
+	bottom:0;
+	background:#20C4AC;
+	border:3px solid #20C4AC;
+	border-radius:0;
+	height:40px;
+	width:120px;
+	margin:60px 0 0 0;
+	border:none;
+	transition:ease 1s;
+	cursor:pointer;
+}
+.watch_now:hover{
+	border:3px solid #20C4AC;
+	transition:ease 1s;
+	background:none;
+	color:#20C4AC;
+	margin:60px 0 0 0;
+	height:40px;
+}
+/*================webiners==================*/
+.welcome_head{
+	font-size:24px;
+	font-family:'Century Gothic';
+	margin:30px 0 10px 0;
+	
+}
+.welcome_para{
+	font-size:14px;
+	font-family:'Century Gothic';
+	margin:20px 0 30px 0;
+	line-height:24px;
+}
+.webiners_head{
+	font-size:22px;
+	font-family:'Century Gothic';
+	margin:10px 0 20px 0;
+	
+}
+.watch_para{
+	font-size:14px;
+}
+
+}
+/*=================media query 640px======================*/
+@media screen and (min-width:641px) and (max-width:768px){
+/*======================banner part==============*/
+.banner_part{
+	background:url('img/banner_tab.jpg')no-repeat!important;
+	min-height:430px;
+	
+	
+}
+.welcome_head{
+	font-size:30px;
+	font-family:'Century Gothic';
+	margin:30px 0 10px 0;
+	
+}
+.welcome_para{
+	font-size:18px;
+	font-family:'Century Gothic';
+	margin:10px 0 30px 0;
+	line-height:30px;
+}	
+	
+}
 /*=============media query ipad============*/
-@media screen and (min-width:768px) and (max-width:992px){
+@media screen and (min-width:769px) and (max-width:992px){
  body {
        overflow-x: hidden !important;
     }
@@ -171,6 +333,14 @@ border:none!important;
         max-width: 100% !important;
         overflow-x: hidden !important;
     }
+	.elarning_style{
+	margin:0 0 0 70px;
+	
+}
+.elarning_style ul li a{
+	padding:20px 10px 20px 0!important;
+	color:#5F5F5F!important;
+}
 		
 
 	
