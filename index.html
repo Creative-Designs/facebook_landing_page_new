@@ -8,13 +8,14 @@
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	
-	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 	
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="style.css">
-	<script src="jquery.js"></script>
+	
+	<script src="style.js"></script>
 	</head>
 	
 	<body>
@@ -92,23 +93,25 @@
 		  
 		  <div class="card-block">
 			<p class="card-text video_text">Video duration : 3:00 minutes</p>
-			<h4 class="card-title mycard_style">Saturday 25th Nov 2017 </h4>
+			<h4 class="card-title mycard_style">Saturday 25th Nov 2017 at 2:00 PM </h4>
 			<p class="card-text mycard_text">In this video, Dr. Nilesh and Dr. Roopa, Consulting Radiologists, Columbia Asia Hospital, Bangalore discuss in detail about Colon cancer. They discuss its diagnosis, risk factors and role of medical oncologist in management of colon cancer.</p>
 			
-			<button class="btn btn-info watch_now">Register now</button>
+			<button class="btn btn-warning watch_now">Register now</button>
 			
 		  </div>
 		</div>
-		<div class="card col-sm-4 border_box">
+	<div class="card col-sm-4 border_box">
 		<h4 class="card-title mycard_style1">Rectal Cancer : An Overview by Dr Govind Nandakumar </h4>
 		 <a href="#"><img class="card-img-top img-fluid img_style" src="img/design_2.jpg" alt="Card image cap"></a>
 		  <div class="card-block">
 			<p class="card-text video_text">Video duration : 3:00 minutes</p>
-			<h4 class="card-title mycard_style">Sunday 26th Nov 2017
-</h4>
-			<p class="card-text mycard_text">Dr. Govind Nandakumar Head GI Surgery at Columbia Asia Hospital, Bangalore explains the diagnosis and treatment of rectal cancer. He also talks about the importance of multi-disciplinary team of radiologist, oncologist, gastroenterologist, interventional radiologist treatment for the care of a patient with rectal cancer.</p>
-			<p class="card-text"><small class="text-muted"></small></p>
-			<button class="btn btn-info watch_now">Register now</button>
+			<h4 class="card-title mycard_style">Sunday 26th Nov 2017 at 2:00 PM</h4>
+			<p  class="card-text mycard_text flip">Dr. Govind Nandakumar Head GI Surgery at Columbia Asia Hospital, Bangalore explains the diagnosis and treatment of rectal cancer. He also talks about the importance of multi-disciplinary team of radiologist, oncologist
+			<span class="dot_hide"> ...</span>
+
+			<span class="panel">,gastroenterologist, interventional radiologist treatment for the care of a patient with rectal cancer.</span></p>
+			
+				<button class="btn btn-info watch_now">Register now</button>
 		  </div>
 		</div>
 		<div class="card col-sm-4 border_box">
@@ -116,9 +119,11 @@
 		<a href="#"> <img class="card-img-top img-fluid img_style" src="img/design_3.jpg" alt="Card image cap"></a>
 		  <div class="card-block">
 			<p class="card-text video_text">Video duration : 3:00 minutes</p>
-			<h4 class="card-title mycard_style">Saturday 2nd Dec 2017</h4>
+			<h4 class="card-title mycard_style">Saturday 2nd Dec 2017 at 2:00 PM</h4>
 			<div class="">
-				<p class="card-text mycard_text">Colorectal cancer is among the top 5 cancers worldwide. The objective of rectal imaging in rectal cancer is to help doctors distinguish patients who could benefit from preoperative chemo radiation compared to those who benefit from surgery alone. Dr. Anita Nagadi talks about rectal imaging technique, MRI sequence, and role of MRI in prognosis & post-surgery.</p>
+				<p class="card-text mycard_text flip">Colorectal cancer is among the top 5 cancers worldwide. The objective of rectal imaging in rectal cancer is to help doctors distinguish patients who could benefit from preoperative chemo radiation compared to those who benefit from 
+				<span class="dot_hide"> ...</span>
+				<span class="panel">surgery alone. Dr. Anita Nagadi talks about rectal imaging technique, MRI sequence, and role of MRI in prognosis & post-surgery.</span></p>
 			</div>
 			<p class="card-text"><small class="text-muted"></small></p>
 			
@@ -127,7 +132,6 @@
 		  </div>
 		</div>
 	</div>
-	<!-- webiner part -->
 	
 	<!-- row start-->
 	<div class="row">
@@ -137,10 +141,10 @@
 		  <a href="#"><img class="card-img-top img-fluid img_style" src="img/design_4.jpg" alt="Card image cap"></a>
 		  <div class="card-block">
 			<p class="card-text video_text">Video duration : 3:00 minutes</p>
-			<h4 class="card-title mycard_style">Sunday 3rd Dec 2017 </h4>
-			<p class="card-text mycard_text">
-This video talks about the various management options for hematological malignancies and solid malignancies. Dr. Baswantrao Malipatil, Consultant – Medical Oncology, Columbia Asia Hospital explains how radiation, surgery and chemotherapy are important in the case of colorectal cancers and how tumor board meetings decide on the best treatment option for a colorectal patient.
-</p>
+			<h4 class="card-title mycard_style">Sunday 3rd Dec 2017 at 2:00 PM</h4>
+			<p class="card-text mycard_text flip">
+This video talks about the various management options for hematological malignancies and solid malignancies. Dr. Baswantrao Malipatil, Consultant – Medical Oncology, Columbia Asia Hospital explains how radiation, <span class="dot_hide"> ...</span>
+<span class="panel">surgery and chemotherapy are important in the case of colorectal cancers and how tumor board meetings decide on the best treatment option for a colorectal patient.</span></p>
 			<p class="card-text"><small class="text-muted"></small></p>
 			
 			<button class="btn btn-info watch_now">Register now</button>
@@ -154,8 +158,10 @@ This video talks about the various management options for hematological malignan
 		 <a href="#"><img class="card-img-top img-fluid img_style" src="img/design_5.jpg" alt="Card image cap"></a>
 		  <div class="card-block">
 			<p class="card-text video_text">Video duration : 3:00 minutes</p>
-			<h4 class="card-title mycard_style">Sunday 3rd Dec 2017 </h4>
-			<p class="card-text mycard_text">Dr. Govind Nandakumar Head GI Surgery at Columbia Asia Hospital, Bangalore explains the types of ostomy, the various reasons for an ostomy, and the importance of an ostomy therapist to improve the quality of life for a person with stoma.</p>
+			<h4 class="card-title mycard_style">Sunday 3rd Dec 2017 at 2:00 PM</h4>
+			<p class="card-text mycard_text flip">Dr. Govind Nandakumar Head GI Surgery at Columbia Asia Hospital, Bangalore explains the types of ostomy, the various reasons for an ostomy, and the importance of an ostomy therapist to improve the quality of 
+			<span class="dot_hide"> ...</span>
+			<span class="panel">life for a person with stoma.</span></p>
 			<p class="card-text"><small class="text-muted"></small></p>
 			<button class="btn btn-info watch_now">Register now</button>
 		  </div>
@@ -165,9 +171,11 @@ This video talks about the various management options for hematological malignan
 		 <a href="#"><img class="card-img-top img-fluid img_style" src="img/design_6.jpg" alt="Card image cap"></a>
 		  <div class="card-block">
 			<p class="card-text video_text">Video duration : 3:00 minutes</p>
-			<h4 class="card-title mycard_style">Sunday 3rd Dec 2017 </h4>
+			<h4 class="card-title mycard_style">Sunday 3rd Dec 2017 at 2:00 PM </h4>
 			<div class="">
-				<p class="card-text mycard_text">An overview of Crohn’s disease, the indications for surgery, diagnostic procedures, the resection options, strictureplasty, risk factors for recurrence, genetic predispositions are elaborated in this video along with the treatment for ulcerative colitis. This short video is presented by Dr. Govind Nandakumar Head GI Surgery at Columbia Asia Hospital, Bangalore.</p>
+				<p class="card-text mycard_text flip">An overview of Crohn’s disease, the indications for surgery, diagnostic procedures, the resection options, strictureplasty, risk factors for recurrence, genetic predispositions are elaborated in this video along with 
+				<span class="dot_hide"> ...</span>
+				<span class="panel">the treatment for ulcerative colitis. This short video is presented by Dr. Govind Nandakumar Head GI Surgery at Columbia Asia Hospital, Bangalore.</span></p>
 			</div>
 			<p class="card-text"><small class="text-muted"></small></p>
 			<div class="watch_btn">
@@ -186,8 +194,9 @@ This video talks about the various management options for hematological malignan
 		  <a href="#"><img class="card-img-top img-fluid img_style" src="img/design_7.jpg" alt="Card image cap"></a>
 		  <div class="card-block">
 			<p class="card-text video_text">Video duration : 3:00 minutes</p>
-			<h4 class="card-title mycard_style">Sunday 3rd Dec 2017 </h4>
-			<p class="card-text mycard_text">The general causes and types of rectal prolapse along with the treatment modality in a patient with rectal prolapse is discussed in this video by Dr. Govind Nandakumar. He explains about laparoscopic procedure called rectopexy in young patients and Altmeyer procedure in older patients for treatment of rectal prolapse.</p>
+			<h4 class="card-title mycard_style">Sunday 3rd Dec 2017 at 2:00 PM</h4>
+			<p class="card-text mycard_text flip">The general causes and types of rectal prolapse along with the treatment modality in a patient with rectal prolapse is discussed in this video by Dr. Govind Nandakumar. He explains about laparoscopic procedure called <span class="dot_hide"> ...</span>
+			<span class="panel">rectopexy in young patients and Altmeyer procedure in older patients for treatment of rectal prolapse.</span></p>
 			<p class="card-text"><small class="text-muted"></small></p>
 			
 			<button class="btn btn-info watch_now">Register now</button>
@@ -201,8 +210,9 @@ This video talks about the various management options for hematological malignan
 		 <a href="#"><img class="card-img-top img-fluid img_style" src="img/design_8.jpg" alt="Card image cap"></a>
 		  <div class="card-block">
 			<p class="card-text video_text">Video duration : 3:00 minutes</p>
-			<h4 class="card-title mycard_style">Sunday 3rd Dec 2017</h4>
-			<p class="card-text mycard_text">The importance of history and medical examination and the need for a clear distinction between transit issue and defecation issue in chronic constipation is elaborated in this video by Dr. Govind Nandakumar Head GI Surgery at Columbia Asia Hospital, Bangalore.
+			<h4 class="card-title mycard_style">Sunday 3rd Dec 2017 at 2:00 PM</h4>
+			<p class="card-text mycard_text flip">The importance of history and medical examination and the need for a clear distinction between transit issue and defecation issue in chronic constipation is elaborated in this video by Dr. Govind Nandakumar Head GI Surgery<span class="dot_hide"> ...</span>
+			<span class="panel">at Columbia Asia Hospital, Bangalore.</span>
 </p>
 			<p class="card-text"><small class="text-muted"></small></p>
 			<button class="btn btn-info watch_now">Register now</button>
@@ -213,9 +223,10 @@ This video talks about the various management options for hematological malignan
 		 <a href="#"><img class="card-img-top img-fluid img_style" src="img/design_9.jpg" alt="Card image cap"></a>
 		  <div class="card-block">
 			<p class="card-text video_text">Video duration : 3:00 minutes</p>
-			<h4 class="card-title mycard_style"> Sunday 3rd Dec 2017</h4>
+			<h4 class="card-title mycard_style"> Sunday 3rd Dec 2017 at 2:00 PM</h4>
 			<div class="">
-				<p class="card-text mycard_text">Gastroenterological patients generally suffer from stress incontinence and obstructive defecation. Sandeep Dhar, Head of Physiotherapy and Rehabilitation, Columbia Asia Hospital, Bangalore explains about biofeedback therapy which improves the muscle tone by either contracting or relaxing the pelvic floor muscles. Biofeedback therapy strengthens the pelvic floor muscles to overcome stress incontinence and obstructive defecation.
+				<p class="card-text mycard_text flip">Gastroenterological patients generally suffer from stress incontinence and obstructive defecation. Sandeep Dhar, Head of Physiotherapy and Rehabilitation, Columbia Asia Hospital, Bangalore explains about <span class="dot_hide"> ...</span>
+				<span class="panel">biofeedback therapy which improves the muscle tone by either contracting or relaxing the pelvic floor muscles. Biofeedback therapy strengthens the pelvic floor muscles to overcome stress incontinence and obstructive defecation.</span>
 </p>
 			</div>
 			<p class="card-text"><small class="text-muted"></small></p>
@@ -236,9 +247,10 @@ This video talks about the various management options for hematological malignan
 		  <a href="#"><img class="card-img-top img-fluid img_style" src="img/design_10.jpg" alt="Card image cap"></a>
 		  <div class="card-block">
 			<p class="card-text video_text">Video duration : 3:00 minutes</p>
-			<h4 class="card-title mycard_style">Sunday 3rd Dec 2017</h4>
-			<p class="card-text mycard_text">
-One of the less utilized radiological procedures called Defecography; the procedure followed is explained in this video by Dr. Sunita Gopalan, Consultant Radiologist at Columbia Asia Hospital, Bangalore. The purpose and indications for defecogrpahy is also elaborated in detail along with the two types of defecogrpahy.
+			<h4 class="card-title mycard_style">Sunday 3rd Dec 2017 at 2:00 PM</h4>
+			<p class="card-text mycard_text flip">
+One of the less utilized radiological procedures called Defecography; the procedure followed is explained in this video by Dr. Sunita Gopalan, Consultant Radiologist at Columbia Asia Hospital, Bangalore. The purpose and indications<span class="dot_hide"> ...</span> 
+<span class="panel">for defecogrpahy is also elaborated in detail along with the two types of defecogrpahy.</span>
 
 </p>
 			<p class="card-text"><small class="text-muted"></small></p>
