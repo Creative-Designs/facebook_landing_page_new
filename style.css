@@ -57,7 +57,7 @@
 .welcome_para{
 	font-size:18px;
 	font-family:'Century Gothic';
-	margin:50px 0 30px 0;
+	margin:30px 0 30px 0;
 	line-height:34px;
 }
 /*================webiners==================*/
@@ -74,7 +74,7 @@
 }
 .mycard_style1{
 	color:#0A71AC!important;
-	margin:20px 0 10px 0!important;
+	margin:25px 0 10px 0!important;
 	font-size:17px!important;
 }
 .card-block{
@@ -100,7 +100,7 @@ border:none!important;
 	border-radius:0;
 	height:40px;
 	width:140px;
-	margin:60px 0 0 15px;
+	margin:60px 0 0 0;
 	border:none;
 	transition:ease 1s;
 	cursor:pointer;
@@ -110,7 +110,7 @@ border:none!important;
 	transition:ease 1s;
 	background:none;
 	color:#fba427;
-	margin:60px 0 0 15px;
+	margin:60px 0 0 0;
 	height:40px;
 }
 .card-text{
