@@ -96,7 +96,7 @@ border:none!important;
 	position:absolute;
 	bottom:0;
 	background:#fba427;
-	border:3px solid #fba427;
+	border:2px solid #fba427;
 	border-radius:0;
 	height:40px;
 	width:140px;
@@ -106,7 +106,7 @@ border:none!important;
 	cursor:pointer;
 }
 .watch_now:hover{
-	border:3px solid #fba427;
+	border:2px solid #fba427;
 	transition:ease 1s;
 	background:none;
 	color:#fba427;
@@ -191,7 +191,7 @@ border:none!important;
 	position:absolute;
 	bottom:0;
 	background:#fba427;
-	border:3px solid #fba427;
+	border:2px solid #fba427;
 	border-radius:0;
 	height:40px;
 	width:120px;
@@ -202,7 +202,7 @@ border:none!important;
 	
 }
 .watch_now:hover{
-	border:3px solid #fba427;
+	border:2px solid #fba427;
 	transition:ease 1s;
 	background:none;
 	color:#fba427;
@@ -271,7 +271,7 @@ border:none!important;
 	position:absolute;
 	bottom:0;
 	background:#fba427;
-	border:3px solid #fba427;
+	border:2px solid #fba427;
 	border-radius:0;
 	height:40px;
 	width:120px;
@@ -282,7 +282,7 @@ border:none!important;
 
 }
 .watch_now:hover{
-	border:3px solid #20C4AC;
+	border:2px solid #20C4AC;
 	transition:ease 1s;
 	background:none;
 	color:#20C4AC;
@@ -367,17 +367,98 @@ body {
     }
 	.elarning_style{
 	margin:0 0 0 70px;
+
 	
 }
 .elarning_style ul li a{
-	padding:20px 10px 20px 0!important;
-	color:#5F5F5F!important;
+	padding:20px 15px 20px 0!important;
+	color:#fff!important;
+		font-size:12px!important;
 }
 		
 
 	
 }
+/*=============media query ipad pro============*/
+@media screen and (min-width:1201px) and (max-width:1300px){
+ body {
+       overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+	.elarning_style{
+	margin:0 0 0 70px;
 	
+}
+.elarning_style ul li a{
+	padding:20px 10px 20px 0!important;
+	color:#fff!important;
+}
+		
+
+	
+}
+
+	/*=============media query ipad pro============*/
+@media screen and (min-width:1400px){
+	
+	.blue_logo_part{
+	background:#4080ff;
+	border-radius:0;
+	padding:10px 30px 15px 100px;
+}
+
+.logo_part{
+	color:#fff;
+	margin:0 0 0 30px;
+	font-size:16px;
+}
+.logo_img{
+	width:60px;
+	margin:-15px 15px 0 0;
+}
+.logo_text{
+	color:#fff;
+	
+	
+}
+
+.start_btn{
+	background:#046EC1;
+	border:none;
+	margin:0 auto;
+}
+.start_btn:hover{
+ background:#4B4076;
+}
+.navar_mystyle{
+	background:#fff;
+	border:none;
+
+}
+.elarning_style{
+	margin:0 0 0 0;
+	
+}
+.elarning_style ul li a{
+	padding:20px 30px 20px 0!important;
+	color:#fff!important;
+	font-size:15px!important;
+}
+	
+/*======================banner part==============*/
+.banner_part{
+	background:url('img/banner_new2_large.jpg')no-repeat;
+	min-height:330px;
+
+	
+	
+}
+
+
+}
 	
 	
 	
