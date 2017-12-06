@@ -43,12 +43,12 @@
 /*======================banner part==============*/
 .banner_part{
 	background:url('img/banner_new2.jpg')no-repeat;
-	min-height:430px;
+	min-height:330px;
 	
 	
 }
 .welcome_head{
-	font-size:50px;
+	font-size:36px;
 	font-family:'Century Gothic';
 	margin:30px 0 30px 0;
 	
@@ -69,6 +69,7 @@
 .card-title{
 	color:#043F78!important;
 	margin:0 0 20px 0!important;
+	font-size:17px!important;
 }
 .card-block{
 	padding:0 20px 20px 0!important;
@@ -88,8 +89,8 @@ border:none!important;
 .watch_now{
 	position:absolute;
 	bottom:0;
-	background:#20C4AC;
-	border:3px solid #20C4AC;
+	background:#fba427;
+	border:3px solid #fba427;
 	border-radius:0;
 	height:40px;
 	width:140px;
@@ -99,10 +100,10 @@ border:none!important;
 	cursor:pointer;
 }
 .watch_now:hover{
-	border:3px solid #20C4AC;
+	border:3px solid #fba427;
 	transition:ease 1s;
 	background:none;
-	color:#20C4AC;
+	color:#fba427;
 	margin:60px 0 0 0;
 	height:40px;
 }
@@ -142,6 +143,12 @@ border:none!important;
 .social_icon:hover {
 	color:#062A4D;
 }
+.video_text{
+	line-height:15px!important;
+	font-weight:bold!important;
+	font-size:13px!important;
+	margin:10px 0 20px 0!important;
+}
 
 
 /*=================media query start====================*/
@@ -172,43 +179,40 @@ border:none!important;
 
 
 }
-.watch_now{
-	
-	
 
-}
 
 .watch_now{
 	position:absolute;
 	bottom:0;
-	background:#20C4AC;
-	border:3px solid #20C4AC;
+	background:#fba427;
+	border:3px solid #fba427;
 	border-radius:0;
 	height:40px;
 	width:120px;
-	margin:60px 0 0 0;
+	margin:60px 0 0 110px;
 	border:none;
 	transition:ease 1s;
 	cursor:pointer;
+	
 }
 .watch_now:hover{
-	border:3px solid #20C4AC;
+	border:3px solid #fba427;
 	transition:ease 1s;
 	background:none;
-	color:#20C4AC;
-	margin:60px 0 0 0;
+	color:#fba427;
+	margin:60px 0 0 110px;
 	height:40px;
 }
 /*======================banner part==============*/
 .banner_part{
 	background:url('img/banner_mob.jpg')no-repeat;
-	min-height:430px;
+	min-height:380px;
 	
 	
 }
 .welcome_head{
 	font-size:30px;
-	font-family:'Century Gothic';
+	font-family:'Century Gothic'!important;
 	margin:30px 0 10px 0;
 	
 }
@@ -223,10 +227,17 @@ border:none!important;
 }
 /*=================media query 640px======================*/
 @media screen and (min-width:401px) and (max-width:640px){
+	body {
+       overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
 	
 	.banner_part{
 	background:url('img/banner_tab.jpg')no-repeat;
-	min-height:430px;
+	min-height:380px;
 	
 }
 .mycard_style{
@@ -239,15 +250,18 @@ border:none!important;
 }
 .video_text{
 	line-height:12px!important;
+	font-weight:bold!important;
 	font-size:12px!important;
 	margin:0 0 10px 0!important;
 }
 /*================button====================*/
+
 .watch_now{
+	
 	position:absolute;
 	bottom:0;
-	background:#20C4AC;
-	border:3px solid #20C4AC;
+	background:#fba427;
+	border:3px solid #fba427;
 	border-radius:0;
 	height:40px;
 	width:120px;
@@ -255,6 +269,7 @@ border:none!important;
 	border:none;
 	transition:ease 1s;
 	cursor:pointer;
+
 }
 .watch_now:hover{
 	border:3px solid #20C4AC;
@@ -267,7 +282,7 @@ border:none!important;
 /*================webiners==================*/
 .welcome_head{
 	font-size:24px;
-	font-family:'Century Gothic';
+	font-family:'Century Gothic'!important;
 	margin:30px 0 10px 0;
 	
 }
@@ -293,13 +308,13 @@ border:none!important;
 /*======================banner part==============*/
 .banner_part{
 	background:url('img/banner_tab.jpg')no-repeat!important;
-	min-height:430px;
+	min-height:380px;
 	
 	
 }
 .welcome_head{
 	font-size:30px;
-	font-family:'Century Gothic';
+	font-family:'Century Gothic'!important;
 	margin:30px 0 10px 0;
 	
 }
@@ -308,7 +323,14 @@ border:none!important;
 	font-family:'Century Gothic';
 	margin:10px 0 30px 0;
 	line-height:30px;
-}	
+}
+body {
+       overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }	
 	
 }
 /*=============media query ipad============*/
