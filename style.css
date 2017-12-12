@@ -60,16 +60,18 @@
 	
 }
 .welcome_head{
-	font-size:36px;
+	color:#27606C;
+	font-size:30px;
 	font-family:'Century Gothic';
 	margin:30px 0 30px 0;
+	
 	
 }
 .welcome_para{
 	font-size:18px;
 	font-family:'Century Gothic';
 	margin:30px 0 30px 0;
-	line-height:34px;
+	line-height:28px;
 }
 /*================webiners==================*/
 .webiners_head{
