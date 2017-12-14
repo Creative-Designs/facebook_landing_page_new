@@ -10,7 +10,7 @@
 }
 
 .blue_logo_part{
-	background:#4080ff;
+	background:#2E7AAF;
 	border-radius:0;
 	padding:10px 30px 15px 100px;
 }
@@ -60,18 +60,18 @@
 	
 }
 .welcome_head{
-	color:#27606C;
-	font-size:30px;
-	font-family:'Century Gothic';
+	color:#0A71AC!important;
+	font-size:32px;
+	
 	margin:30px 0 30px 0;
 	
 	
 }
 .welcome_para{
-	font-size:18px;
-	font-family:'Century Gothic';
-	margin:30px 0 30px 0;
-	line-height:28px;
+	font-size:19px;
+	
+	margin:0 0 10px 0;
+
 }
 /*================webiners==================*/
 .webiners_head{
@@ -155,14 +155,22 @@ border:none!important;
 }
 /*====================footer part==================*/
 .footer_part{
-	background:#4080ff;
+	background:#2E7AAF;
+	margin:20px 0 0 0;
+	padding:20px 0 0 50px;
+	
+}
+.footer_part_two{
+	background:#2E7AAF;
+	margin:1px 0 0 0;
+	padding:20px 0 0 0;
 	
 }
 .social_icon{
 	cursor:pointer;
 	color:#fff;
 	font-size:30px;
-	margin:50px 20px 50px 0;
+	margin:10px 20px 50px 0;
 }
 .social_icon:hover {
 	color:#062A4D;
@@ -173,7 +181,45 @@ border:none!important;
 	font-size:13px!important;
 	margin:5px 0 15px 0!important;
 }
+/*===========footer part==============*/
+.happidoc_head{
+	color:#fff;
+	margin:0 0 20px 0;
+}
+.find_para{
+	color:#96C7E9;
+	font-weight:bold;
+}
+.footer_link a{
+	color:#fff;
+	font-size:15px;
+	text-decoration:none;
+}
+.about_head{
+	font-size:22px;
+	color:#A9D7F7;
+	margin:0 0 10px 0;
+	
+}
+ul{
 
+	 padding: 0;
+	list-style-type: none;
+	
+}
+
+.apple_icon{
+	width:48px;
+	padding:0 10px 10px 0;
+}
+.apple_icon:hover{
+	opacity:0.7;
+}
+.idea_para{
+	color:#fff;
+	font-size:14px;
+	
+}
 
 /*=================media query start====================*/
 
@@ -247,19 +293,26 @@ border:none!important;
 	
 }
 .welcome_head{
+	color:#0A71AC!important;
 	font-size:24px;
-	font-family:'Century Gothic'!important;
+	
 	margin:20px 0 10px 0;
 	
 }
 .welcome_para{
 	font-size:14px;
-	font-family:'Century Gothic';
+	
 	margin:10px 0 30px 0;
 	line-height:20px;
 }
 .navbar-toggler-right{
 	margin:20px 0 0 0!important;
+	
+}
+.footer_part{
+	background:#2E7AAF;
+	margin:20px 0 0 0;
+	padding:20px 0 0 0;
 	
 }
 
@@ -331,13 +384,13 @@ border:none!important;
 /*================webiners==================*/
 .welcome_head{
 	font-size:24px;
-	font-family:'Century Gothic'!important;
+	color:#0A71AC!important;
 	margin:30px 0 10px 0;
 	
 }
 .welcome_para{
 	font-size:14px;
-	font-family:'Century Gothic';
+	
 	margin:20px 0 30px 0;
 	line-height:24px;
 }
@@ -363,13 +416,13 @@ border:none!important;
 }
 .welcome_head{
 	font-size:30px;
-	font-family:'Century Gothic'!important;
+	color:#0A71AC!important;
 	margin:30px 0 10px 0;
 	
 }
 .welcome_para{
 	font-size:18px;
-	font-family:'Century Gothic';
+	
 	margin:10px 0 30px 0;
 	line-height:30px;
 }
