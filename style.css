@@ -1,3 +1,9 @@
+
+#top_btn{
+	display:none;
+}
+
+
 .btn:focus,.btn:active {
    outline: none !important;
    box-shadow: none;
@@ -182,9 +188,16 @@ border:none!important;
 	margin:5px 0 15px 0!important;
 }
 /*===========footer part==============*/
-.happidoc_head{
+.happidoc_head a{
 	color:#fff;
 	margin:0 0 20px 0;
+	font-weight:normal;
+	text-decoration:none;
+}
+.happidoc_head a:hover{
+	color:#49E9EE;
+	margin:0 0 20px 0;
+	text-decoration:none;
 }
 .find_para{
 	color:#96C7E9;
@@ -224,6 +237,19 @@ ul{
 /*=================media query start====================*/
 
 @media screen and (min-width:100px) and (max-width:400px){
+	#top_btn{
+	color:#20DCE2;
+	background:none;
+	border:none;
+	outline:none;
+	right:10px;
+	bottom:30px;
+	position:fixed;
+	z-index:999;
+	cursor:pointer;
+	display:none;
+}
+
  body {
        overflow-x: hidden !important;
     }
