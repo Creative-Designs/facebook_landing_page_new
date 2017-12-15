@@ -60,7 +60,7 @@
 	
 /*======================banner part==============*/
 .banner_part{
-	background:url('img/banner_new2.jpg')no-repeat;
+	background:url('img/banner_new3.jpg')no-repeat;
 	min-height:330px;
 	
 	
@@ -313,14 +313,14 @@ border:none!important;
 }
 /*======================banner part==============*/
 .banner_part{
-	background:url('img/banner_mob1.jpg')no-repeat;
-	min-height:120px;
+	background:url('img/banner_mob.jpg')no-repeat;
+	min-height:140px;
 	
 	
 }
 .welcome_head{
 	color:#0A71AC!important;
-	font-size:24px;
+	font-size:20px;
 	
 	margin:20px 0 10px 0;
 	
@@ -328,7 +328,7 @@ border:none!important;
 .welcome_para{
 	font-size:14px;
 	
-	margin:10px 0 30px 0;
+	margin:10px 0 10px 0;
 	line-height:20px;
 }
 .navbar-toggler-right{
