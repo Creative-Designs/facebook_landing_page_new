@@ -222,6 +222,7 @@ ul{
 }
 
 .apple_icon{
+	float:left;
 	width:48px;
 	padding:0 10px 10px 0;
 }
@@ -232,6 +233,11 @@ ul{
 	color:#fff;
 	font-size:14px;
 	
+}
+.about_head1{
+	font-size:16px;
+	color:#A9D7F7;
+	margin:0 0 10px 0;
 }
 
 /*=================media query start====================*/
@@ -342,10 +348,49 @@ border:none!important;
 	
 }
 
-	
+.apple_icon{
+	width:48px;
+	padding:0 10px 10px 0;
+}
+.about_head1{
+	font-size:17px;
+	font-weight:bold;
+	color:#A9D7F7;
+	text-align:center!important;
+	margin:0 0 10px 0;
+}
+.apple_part{
+text-align:center !important;
+}
+.play{
+	display:inline-block!important;
+}	
 }
 /*=================media query 640px======================*/
 @media screen and (min-width:401px) and (max-width:640px){
+		#top_btn{
+	color:#20DCE2;
+	background:none;
+	border:none;
+	outline:none;
+	right:10px;
+	bottom:30px;
+	position:fixed;
+	z-index:999;
+	cursor:pointer;
+	display:none;
+}
+.apple_part{
+text-align:center !important;
+}
+.play{
+	display:inline-block!important;
+}
+	.apple_icon{
+	
+	width:48px;
+	padding:0 10px 10px 0;
+}
 	body {
        overflow-x: hidden !important;
     }
@@ -357,6 +402,7 @@ border:none!important;
 	.banner_part{
 	background:url('img/banner_tab.jpg')no-repeat;
 	min-height:380px;
+
 	
 }
 .mycard_style{
