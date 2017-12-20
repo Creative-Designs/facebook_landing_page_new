@@ -29,6 +29,8 @@
 #chat_btn:hover{
 	width:200px;
 	opacity:0.8;
+	
+
 }
 #chat_btn{
 	
@@ -36,6 +38,7 @@
 	 border:none;
 	 margin:0 0 0 5px;
 	 height:50px;
+
 }
 
 #top_btn{
@@ -296,10 +299,20 @@ ul{
 
 @media screen and (min-width:100px) and (max-width:400px){
 	/*====footer btn====*/
+	.footer_social{
+		padding:0 0 0 5px;
+		float:right!important;
+		width:100px;
+	
+	}
+	.footer_social{
+		
+	}
+	
 	.footer_btn_part{
 
 		display:block;
-width:100%;
+		width:100%;
 		border:none;
 		outline:none;		
 		position:fixed;
@@ -311,7 +324,7 @@ width:100%;
 		margin:10px 0 0 0;
 	}
 	.footer_btn{
-		padding:0 0 0 25px;
+		padding:0 0 0 0;
 		background:none;
 		border:none;
 	
