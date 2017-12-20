@@ -309,6 +309,7 @@ ul{
 		color:#40509A;
 		font-size:20px;
 		margin:0 5px 0 10px;
+		vertical-align: middle;
 		
 	}
 	.facebook_footer_text{
@@ -321,18 +322,20 @@ ul{
 		color:#208713;
 		font-size:20px;
 		margin:0 5px 0 10px;
+		vertical-align: middle;
 		
 	}
 	.send_footer_text{
 		color:#208713;
 		font-size:14px;
-		font-weight:bold;
+		font-weight:bold;	
 	
 	}
 	.tweet_footer{
 		color:#24A4C7;
 		font-size:20px;
 		margin:0 5px 0 10px;
+		vertical-align: middle;
 		
 	}
 	.tweet_footer_text{
