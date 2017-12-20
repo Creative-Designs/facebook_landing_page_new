@@ -300,13 +300,46 @@ ul{
 @media screen and (min-width:100px) and (max-width:400px){
 	/*====footer btn====*/
 	.footer_social{
-		padding:0 0 0 5px;
+		padding:0 0 0 0;
 		float:right!important;
 		width:100px;
 	
 	}
-	.footer_social{
+	.facebook_footer{
+		color:#40509A;
+		font-size:20px;
+		margin:0 5px 0 10px;
 		
+	}
+	.facebook_footer_text{
+		color:#40509A;
+		font-size:14px;
+		font-weight:bold;
+	
+	}
+	.send_footer{
+		color:#208713;
+		font-size:20px;
+		margin:0 5px 0 10px;
+		
+	}
+	.send_footer_text{
+		color:#208713;
+		font-size:14px;
+		font-weight:bold;
+	
+	}
+	.tweet_footer{
+		color:#24A4C7;
+		font-size:20px;
+		margin:0 5px 0 10px;
+		
+	}
+	.tweet_footer_text{
+		color:#24A4C7;
+		font-size:14px;
+		font-weight:bold;
+	
 	}
 	
 	.footer_btn_part{
@@ -319,14 +352,16 @@ ul{
 		z-index:9999;
 		cursor:pointer;
 		bottom:0%;
-		padding:5px 0 5px 10px;
+		padding:5px 30px 5px 15px;
 		background:#fff;
 		margin:10px 0 0 0;
 	}
 	.footer_btn{
-		padding:0 0 0 0;
-		background:none;
+		padding:10px 20px 10px 5px;
+		background:#F0F0F0!important;
 		border:none;
+		border-radius:50px;
+		width:100px;
 	
 	}
 	.footer_btn:hover{
