@@ -344,47 +344,6 @@ ul{
 		font-weight:bold;
 	
 	}
-	/*==================hover part==================*/
-	.facebook_footer:hover{
-		color:#0E3F73;
-		font-size:20px;
-		margin:0 5px 0 10px;
-		vertical-align: middle;
-		
-	}
-	.facebook_footer_text:hover{
-		color:#0E3F73;
-		font-size:14px;
-		font-weight:bold;
-	
-	}
-	.send_footer:hover{
-		color:#2E7202;
-		font-size:20px;
-		margin:0 5px 0 10px;
-		vertical-align: middle;
-		
-	}
-	.send_footer_text:hover{
-		color:#2E7202;
-		font-size:14px;
-		font-weight:bold;	
-	
-	}
-	.tweet_footer:hover{
-		color:#257A7C;
-		font-size:20px;
-		margin:0 5px 0 10px;
-		vertical-align: middle;
-		
-	}
-	.tweet_footer_text:hover{
-		color:#257A7C;
-		font-size:14px;
-		font-weight:bold;
-	
-	}
-	/*====================hover part=====================*/
 	
 	
 	.footer_btn_part{
