@@ -113,7 +113,7 @@
 	
 /*======================banner part==============*/
 .banner_part{
-	background:url('img/banner_new3.jpg')no-repeat;
+	background:url('img/banner_gif_new.gif')no-repeat;
 	min-height:330px;
 	
 	
@@ -453,7 +453,7 @@ border:none!important;
 }
 /*======================banner part==============*/
 .banner_part{
-	background:url('img/banner_mob.jpg')no-repeat;
+	background:url('img/banner_mob.gif')no-repeat;
 	min-height:140px;
 	
 	
