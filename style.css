@@ -1,4 +1,142 @@
 
+.padding_0{
+    padding-right:0;
+    padding-left:10px;
+}
+.past_btn{
+	width:190px;
+	height:50px;
+	font-size:20px;
+	font-weight:bold;
+	border:none;
+	background:none;
+	border-radius:0;
+	
+	margin:0 0 0 -40px;
+	
+}
+.past_btn:hover{
+	
+}
+.click_part_text{
+	font-size:20px;
+	color:#0A71AC;
+	font-weight:bold;
+	float:left;
+	margin:10px 0 0 20px;
+	
+}
+.old_gastropart{
+	
+	margin:20px 0 0 0;
+}
+.old_gastropart_grey{
+	background:#DFDFDF;
+	height:50px;
+
+
+
+
+}
+/*==============box part=================*/
+.colon_btn{
+	width:99%;
+	height:52px;
+	border:none;
+	background:#2FB9BB;
+	border-radius:0;
+	margin:0 0 0 0;
+	font-size:15px;
+}
+.colon_btn:hover{
+	background:#5F5F5F;
+}
+.Rectal_btn{
+	border:none;
+	width:99%;
+	height:52px;
+	background:#0B86A7;
+	border-radius:0;
+	margin:0 0 0 0;
+	font-size:15px;
+}
+.Rectal_btn:hover{
+	background:#5F5F5F;
+}
+.Stoma_btn{
+	border:none;
+	width:99%;
+	height:52px;
+	background:#0E5390;
+	border-radius:0;
+	margin:0 0 0 0;
+	font-size:15px;
+}
+.Stoma_btn:hover{
+	background:#5F5F5F;
+}
+.Ulcerative_btn{
+	border:none;
+	width:99%;
+	height:52px;
+	background:#0E5390;
+	border-radius:0;
+	margin:0 0 0 0;
+	font-size:15px;
+	
+}
+.Ulcerative_btn:hover{
+	background:#5F5F5F;
+}
+.Prolapse_btn{
+	border:none;
+	width:99%;
+	height:52px;
+	background:#2A3567;
+	border-radius:0;
+	margin:0 0 0 0;
+	font-size:15px;
+}
+.Prolapse_btn:hover{
+	background:#5F5F5F;
+}
+.chronic_btn{
+	border:none;
+	width:99%;
+	height:52px;
+	background:#2A3567;
+	border-radius:0;
+	margin:0 0 0 0;
+	font-size:15px;
+}
+.chronic_btn:hover{
+	background:#5F5F5F;
+}
+.Stress_btn{
+	border:none;
+	width:99%;
+	height:52px;
+	background:#131E4D;
+	border-radius:0;
+	margin:0 0 0 0;
+	font-size:15px;
+}
+.Stress_btn:hover{
+	background:#5F5F5F;
+}
+.Defecography_btn{
+	border:none;
+	width:99%;
+	height:52px;
+	background:#131E4D;
+	border-radius:0;
+	margin:0 0 0 0;
+	font-size:15px;
+}
+.Defecography_btn:hover{
+	background:#5F5F5F;
+}
+/*===============footer part==============*/
 .footer_btn_part{
 	display:none;
 }
@@ -19,7 +157,6 @@
 	 border:none;
 	margin:0 0 0 5px;
 	height:50px;
-
 }
 #call_btn:hover{
 	width:200px;
@@ -29,8 +166,6 @@
 #chat_btn:hover{
 	width:200px;
 	opacity:0.8;
-	
-
 }
 #chat_btn{
 	
@@ -38,7 +173,6 @@
 	 border:none;
 	 margin:0 0 0 5px;
 	 height:50px;
-
 }
 
 #top_btn{
@@ -120,14 +254,13 @@
 }
 .welcome_head{
 	color:#0A71AC!important;
-	font-size:32px;
+	font-size:34px;
 	
-	margin:30px 0 30px 0;
-	
+	margin:30px 0 30px 15px;
 	
 }
 .welcome_para{
-	font-size:19px;
+	font-size:17px;
 	
 	margin:0 0 10px 0;
 
@@ -298,6 +431,99 @@ ul{
 /*=================media query start====================*/
 
 @media screen and (min-width:100px) and (max-width:400px){
+	br {
+    display: none;
+}
+	.past_btn{
+	
+	font-size:20px;
+	border:none;
+	background:none;
+	border-radius:0;
+	margin:0 auto;
+}
+.past_btn:hover{
+	background:#F69E05;
+}
+.click_part_text{
+	font-size:15px;
+	color:#10898C;
+	font-weight:bold;
+	float:left;
+	margin:10px 20px 0 0;
+	text-align:center!important;
+	
+}
+.past_img{
+	margin:10px 0 0 50px;
+}
+
+
+.old_gastropart{
+	
+	margin:20px 0 0 0;
+}
+.old_gastropart_grey{
+	background:#fff;
+	height:50px;
+	float:left;
+
+
+}
+/*==============box part=================*/
+.Surgeries_btn{
+	text-align:center!important;
+	height:100%;
+	width:100%;
+	border:none;
+	background:#2FB9BB;
+	border-radius:0;
+	padding:0 0 20px 0!important;
+	margin:25px 0 0 0;
+	font-size:18px;
+}
+.Surgeries_btn:hover{
+	background:#5F5F5F;
+}
+.Nutrition_btn{
+	text-align:center!important;
+	border:none;
+	height:100%;
+	width:100%;
+	background:#0B86A7;
+	border-radius:0;
+	margin:0 0 0 0;
+	font-size:18px;
+}
+.Nutrition_btn:hover{
+	background:#5F5F5F;
+}
+.Meeting_btn{
+	text-align:center!important;
+	border:none;
+	width:100%;
+	height:100%;
+	background:#0E5390;
+	border-radius:0;
+	margin:0 0 0 0;
+	font-size:18px;
+}
+.Meeting_btn:hover{
+	background:#5F5F5F;
+}
+.Management_btn{
+	text-align:center!important;
+	height:100%;
+	border:none;
+	width:100%;
+	background:#2A3567;
+	border-radius:0;
+	margin:0 0 0 0;
+	font-size:18px;
+}
+.Management_btn:hover{
+	background:#5F5F5F;
+}
 	/*====footer btn====*/
 	.footer_social{
 		padding:0 0 0 0;
